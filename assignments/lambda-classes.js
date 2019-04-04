@@ -80,7 +80,7 @@ class ProjectManager extends Instructor {
 const ganedri = new Instructor({
     name: 'Ganedri',
     location: 'Citime',
-    age: 221,
+    age: 2210,
     gender: 'male',
     race: 'Elf',
     favLanguage: 'Fortran',
@@ -91,7 +91,7 @@ const ganedri = new Instructor({
 const rondris = new Instructor({
     name: 'Rondris',
     location: 'Ditho',
-    age: 301,
+    age: 3201,
     gender: 'male',
     race: 'Elf',
     favLanguage: 'Ruby',
@@ -102,7 +102,7 @@ const rondris = new Instructor({
 const atlanaeon = new Instructor({
     name: 'Atlanaeon',
     location: 'Citime',
-    age: 195,
+    age: 1395,
     gender: 'female',
     race: 'Elf',
     favLangauge: 'Pascal',
@@ -113,15 +113,62 @@ const atlanaeon = new Instructor({
 const daelphos = new Instructor({
     name: 'Daelphos',
     location: 'Ditho',
-    age: 455,
+    age: 1233,
     gender: 'female',
     race: 'Elf',
     favLangauge: 'Java',
     speciality: 'Back-stack',
     catchPhrase: 'A computer once beat me at chess, but it was no match for me at kick boxing.'
 });
-
+// Instructors
 
 // Students
+const cash = new Student({
+    name: 'Cash',
+    location: 'Steamboat Springs',
+    age: 21,
+    gender: 'male',
+    race: 'Human',
+    previousBackground: 'Jazz and Classical Piano',
+    className: 'Web19',
+    favSubjects: ['Jazz', 'Linguistics', 'Computer Programming', 'Fitness/Health'] 
+});
+
+const gimli = new Student({
+    name: 'Gimli',
+    location: 'Blue Mountains',
+    age: 139,
+    gender: 'male',
+    race: 'Dwarf',
+    previousBackground: 'Fighting Orcs',
+    className: 'WebPT3',
+    favSubjects: ['Killing Orcs', 'Ruby', 'Axes', 'Zymology'] 
+});
+
+const legolas = new Student({
+    name: 'Legolas',
+    location: 'Mirkwood',
+    age: 2931,
+    gender: 'male',
+    race: 'Elf',
+    previousBackground: 'Master of Bow and Arrow',
+    className: 'DS3',
+    favSubjects: ['Killing Orcs', 'Ajax', 'Bow and Arrow', 'Oenology'] 
+});
+// Students
+
+// PMs
+//        this.gradClassName = pmAttr.gradClassName;
+//        this.favInstructor = pmAttr.gradClassName;
+
+const byron = new ProjectManager({
+    name: 'Byron',
+    location: 'New Orleans',
+    age: 28,
+    gender: 'male',
+    race: 'Human',
+    gradClassName: 'Web17', //Not sure xD
+    favInstructor: 
+});
 
 // PMs
