@@ -16,9 +16,33 @@ class Person {
 }
 
 // INSTRUCTOR CLASS
-class 
+class Instructor extends Person {
+    constructor(instructorAttr) {
+        super(instructorAttr);
+        this.specialty = instructorAttr.specialty;
+        this.favLanguage = instructorAttr.favLanguage;
+        this.catchPhrase = instructorAttr.catchPhrase;
+    }
+    
+    demo(subject) {
+        return `Today we are learning about ${subject}.`;
+    }
+    grade(student, subject) {
+        return `${student.name} receives a perfect score on ${subject}`;
+    }
+}
 
 // STUDENT CLASS
+class Student extends Person {
+    constructor(studentAttr) {
+        super(studentAttr);
+        this.previousBackground = studentAttr.previousBackground;
+        this.className = studentAttr.className;
+        
+    }
+}
+
+
 
 // PM CLASS
 
