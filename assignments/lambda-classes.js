@@ -76,7 +76,7 @@ class ProjectManager extends Instructor {
 
 
 
-// Instructors
+// Instructors Instructors Instructors Instructors Instructors Instructors Instructors
 const ganedri = new Instructor({
     name: 'Ganedri',
     location: 'Citime',
@@ -120,9 +120,9 @@ const daelphos = new Instructor({
     speciality: 'Back-stack',
     catchPhrase: 'A computer once beat me at chess, but it was no match for me at kick boxing.'
 });
-// Instructors
+// Instructors Instructors Instructors Instructors Instructors Instructors Instructors
 
-// Students
+// Students Students Students Students Students Students Students Students Students Students
 const cash = new Student({
     name: 'Cash',
     location: 'Steamboat Springs',
@@ -155,11 +155,9 @@ const legolas = new Student({
     className: 'DS3',
     favSubjects: ['Killing Orcs', 'Ajax', 'Bow and Arrow', 'Oenology'] 
 });
-// Students
+// Students Students Students Students Students Students Students Students Students Students
 
-// PMs
-//        this.gradClassName = pmAttr.gradClassName;
-//        this.favInstructor = pmAttr.gradClassName;
+// PMs PMs PMs PMs PMs PMs PMs PMs PMs PMs PMs PMs PMs PMs PMs PMs PMs PMs PMs PMs PMs PMs PMs PMs PMs
 
 const byron = new ProjectManager({
     name: 'Byron',
@@ -168,7 +166,27 @@ const byron = new ProjectManager({
     gender: 'male',
     race: 'Human',
     gradClassName: 'Web17', //Not sure xD
-    favInstructor: 
+    favInstructor: 'Daelphos'
 });
 
-// PMs
+const dori = new ProjectManager({
+    name: 'Dori',
+    location: 'Lonely Mountain',
+    age: 130,
+    gender: 'male',
+    race: 'Dwarf',
+    gradClassName: 'UX8', 
+    favInstructor: 'Ganedri'
+});
+
+const nori = new ProjectManager({
+    name: 'Nori',
+    location: 'Lonely Mountain',
+    age: 131,
+    gender: 'male',
+    race: 'Dwarf',
+    gradClassName: 'UX8', 
+    favInstructor: 'Atlanaeon'
+});
+
+// PMs PMs PMs PMs PMs PMs PMs PMs PMs PMs PMs PMs PMs PMs PMs PMs PMs PMs PMs PMs PMs PMs PMs PMs PMs
