@@ -8,6 +8,7 @@ class Person {
         this.age = personAttr.age;
         this.location = personAttr.location;
         this.gender = personAttr.gender;
+        this.race = personAttr.race;
     }
     
     speak() {
@@ -76,6 +77,50 @@ class ProjectManager extends Instructor {
 
 
 // Instructors
+const ganedri = new Instructor({
+    name: 'Ganedri',
+    location: 'Citime',
+    age: 221,
+    gender: 'male',
+    race: 'Elf',
+    favLanguage: 'Fortran',
+    specialty: 'Back-end',
+    catchPhrase: `Sometimes you just have to take the L.`
+});
+
+const rondris = new Instructor({
+    name: 'Rondris',
+    location: 'Ditho',
+    age: 301,
+    gender: 'male',
+    race: 'Elf',
+    favLanguage: 'Ruby',
+    specialty: 'Full-stack',
+    catchPhrase: `Life is a lot like Ruby, what you get out of it depends on how you program it.`
+});
+
+const atlanaeon = new Instructor({
+    name: 'Atlanaeon',
+    location: 'Citime',
+    age: 195,
+    gender: 'female',
+    race: 'Elf',
+    favLangauge: 'Pascal',
+    speciality: 'Full-stack',
+    catchPhrase: 'It is better to be feared than loved, if you cannot be both.'
+});
+
+const daelphos = new Instructor({
+    name: 'Daelphos',
+    location: 'Ditho',
+    age: 455,
+    gender: 'female',
+    race: 'Elf',
+    favLangauge: 'Java',
+    speciality: 'Back-stack',
+    catchPhrase: 'A computer once beat me at chess, but it was no match for me at kick boxing.'
+});
+
 
 // Students
 
