@@ -42,7 +42,7 @@ class Student extends Person {
         this.favSubjects = studentAttr.favSubjects;
     }
     
-    listSubjects() {
+    listsSubjects() {
         this.favSubjects.forEach(function(ele) {
             console.log(ele);
         });
@@ -62,7 +62,7 @@ class ProjectManager extends Instructor {
     constructor(pmAttr) {
         super(pmAttr);
         this.gradClassName = pmAttr.gradClassName;
-        this.favInstructor = pmAttr.gradClassName;
+        this.favInstructor = pmAttr.favInstructor;
     }
     
     standUp(channel) {
@@ -105,8 +105,8 @@ const atlanaeon = new Instructor({
     age: 1395,
     gender: 'female',
     race: 'Elf',
-    favLangauge: 'Pascal',
-    speciality: 'Full-stack',
+    favLanguage: 'Pascal',
+    specialty: 'Full-stack',
     catchPhrase: 'It is better to be feared than loved, if you cannot be both.'
 });
 
@@ -188,5 +188,30 @@ const nori = new ProjectManager({
     gradClassName: 'UX8', 
     favInstructor: 'Atlanaeon'
 });
+
+console.log(ganedri.speak());
+console.log(dori.speak());
+console.log(legolas.speak());
+console.log(ganedri.demo('JS'));
+console.log(atlanaeon.grade(cash, "Hacking"));
+console.log(cash.listsSubjects());
+console.log(cash.PRAssignment("Javascript 1"));
+console.log(cash.sprintChallenge("JS 1"));
+console.log(byron.standUp("web19_byron"));
+console.log(byron.debugsCode(cash, "Hacking"));
+console.log(nori.name);
+console.log(nori.location);
+console.log(nori.gender);
+console.log(nori.race);
+console.log(nori.age);
+console.log(nori.gradClassName);
+console.log(nori.favInstructor);
+console.log(legolas.previousBackground);
+console.log(legolas.className);
+console.log(legolas.favSubjects);
+console.log(atlanaeon.specialty);
+console.log(atlanaeon.favLanguage);
+console.log(atlanaeon.catchPhrase);
+
 
 // PMs PMs PMs PMs PMs PMs PMs PMs PMs PMs PMs PMs PMs PMs PMs PMs PMs PMs PMs PMs PMs PMs PMs PMs PMs

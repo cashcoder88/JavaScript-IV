@@ -212,17 +212,17 @@ const paladin = new Hero({
     language: 'Common Tongue',
   });
 
-  console.log(mage.createdAt); // Today's date
-  console.log(archer.dimensions); // { length: 1, width: 2, height: 4 }
-  console.log(swordsman.healthPoints); // 15
-  console.log(mage.name); // Bruce
-  console.log(swordsman.team); // The Round Table
-  console.log(mage.weapons); // Staff of Shamalama
-  console.log(archer.language); // Elvish
-  console.log(archer.greet()); // Lilith offers a greeting in Elvish.
-  console.log(mage.takeDamage()); // Bruce took damage.
-  console.log(swordsman.destroy()); // Sir Mustachio was removed from the game.
-  console.log(warlock.evilAttack(paladin));
-  console.log(`Prosper now has ${paladin.healthPoints} health points`);
-  console.log(paladin.lightAttack(warlock));
-  console.log(`Sinister now has ${warlock.healthPoints} health points`);
+//  console.log(mage.createdAt); // Today's date
+//  console.log(archer.dimensions); // { length: 1, width: 2, height: 4 }
+//  console.log(swordsman.healthPoints); // 15
+//  console.log(mage.name); // Bruce
+//  console.log(swordsman.team); // The Round Table
+//  console.log(mage.weapons); // Staff of Shamalama
+//  console.log(archer.language); // Elvish
+//  console.log(archer.greet()); // Lilith offers a greeting in Elvish.
+//  console.log(mage.takeDamage()); // Bruce took damage.
+//  console.log(swordsman.destroy()); // Sir Mustachio was removed from the game.
+//  console.log(warlock.evilAttack(paladin));
+//  console.log(`Prosper now has ${paladin.healthPoints} health points`);
+//  console.log(paladin.lightAttack(warlock));
+//  console.log(`Sinister now has ${warlock.healthPoints} health points`);
