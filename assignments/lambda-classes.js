@@ -38,11 +38,23 @@ class Student extends Person {
         super(studentAttr);
         this.previousBackground = studentAttr.previousBackground;
         this.className = studentAttr.className;
-        
+        this.favSubjects = studentAttr.favSubjects;
+    }
+    
+    listSubjects() {
+        this.favSubjects.forEach(function(ele) {
+            console.log(ele);
+        });
+    }
+    
+    PRAssignment(subject) {
+        return `${this.name} has submitted a PR for ${subject}.`;
+    }
+    
+    sprintChallenge(subject) {
+        return `${this.name} has begun sprint challenge on ${subject}.`; 
     }
 }
-
-
 
 // PM CLASS
 
