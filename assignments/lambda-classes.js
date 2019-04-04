@@ -57,7 +57,21 @@ class Student extends Person {
 }
 
 // PM CLASS
-
+class ProjectManager extends Instructor {
+    constructor(pmAttr) {
+        super(pmAttr);
+        this.gradClassName = pmAttr.gradClassName;
+        this.favInstructor = pmAttr.gradClassName;
+    }
+    
+    standUp(channel) {
+        return `${this.name} accounces to ${channel}, @channel standy times!`;
+    }
+    
+    debugsCode(student, subject) {
+        return `${this.name} debugs ${student.name}'s code on ${subject}.`;
+    }
+}
 
 
 
