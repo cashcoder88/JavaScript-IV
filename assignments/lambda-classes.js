@@ -200,6 +200,7 @@ console.log(cash.sprintChallenge("JS 1"));
 console.log(byron.standUp("web19_byron"));
 console.log(byron.debugsCode(cash, "Hacking"));
 console.log(nori.name);
+console.log(dori.name);
 console.log(nori.location);
 console.log(nori.gender);
 console.log(nori.race);
