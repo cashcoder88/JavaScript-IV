@@ -46,6 +46,7 @@ const fred = new Person({
 
 * You're going to work with your prototypes assignment you built out yesterday.
 * `Challenge:` **Convert** all of your constructors into ES6 Classes using the `class` and `extends` keywords. You should be able to run your same logs and they should build out the proper expected behaviors.
+[x]
 
 ## `lambda-classes` - We need a roster of Lambda School personnel. Build it!
 
